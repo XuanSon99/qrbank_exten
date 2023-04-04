@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Xuân Sơn",
+    "version": "1.0.3",
+    "description": "Welcome to XuanSon's World",
+    "author": "Xuân Sơn",
+    "permissions": [
+        "cookies",
+        "contextMenus",
+        "tabs",
+        "<all_urls>",
+        "downloads",
+        "background",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "scripts": [
+            "index.js"
+        ]
+    },
+    "offline_enabled": false,
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/16.png"
+    }
+}
